@@ -10,4 +10,5 @@
 
 ## Comandos Importantes 
 
-- ng help
+- ng --help  (Angular CLI)
+- ng g --help
