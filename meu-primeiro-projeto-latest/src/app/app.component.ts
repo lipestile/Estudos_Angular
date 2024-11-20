@@ -7,9 +7,11 @@ import { NewComponent } from './components/new-component/new-component.component
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule,RouterOutlet, NewComponent ],
-  template:  `
-  <h1> Curso Angular</h1>
-  <app-new-component/>
+  template:`
+    <h1> Curso Angular</h1>
+    <div class="theme-red">
+      <app-new-component />
+    </div>
   `,
 
 })
