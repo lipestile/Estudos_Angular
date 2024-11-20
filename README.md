@@ -13,3 +13,4 @@
 - ng --help  (Angular CLI)
 - ng g --help
 - ng serve
+- ng g component components/new-component  (cria um componente novo)
