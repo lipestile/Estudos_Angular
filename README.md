@@ -12,3 +12,4 @@
 
 - ng --help  (Angular CLI)
 - ng g --help
+- ng serve
