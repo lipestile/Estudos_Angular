@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { NewComponent } from './components/new-component/new-component.component';
 import { TampleteBuildingComponent } from './components/templates/tamplete-building/tamplete-building.component';
 
+//componentes
 @Component({
   selector: 'app-root',
   standalone: true,

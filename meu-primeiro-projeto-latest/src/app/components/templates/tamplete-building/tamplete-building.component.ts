@@ -13,6 +13,16 @@ export class TampleteBuildingComponent {
     public age = 22;
 
     public condition = this.age < 1 ? "Teste" : "Teste2"
+
+    public isDisable = true;
+
+    public srcValue = 'https://th.bing.com/th/id/R.70b15887926051cbdbc4d2f8a33f568c?rik=0tWnvyCpS0ljhw&pid=ImgRaw&r=0';
+
+    constructor(){
+      setTimeout( () => {
+        this.name = " João e Maria"
+      }, 1000)
+    }
     
     public sum( val1: number, val2: number){
       return val1 + val2;
