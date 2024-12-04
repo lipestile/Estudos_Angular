@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class TampleteBuildingComponent {
     public name = "Felipe Carvalho";
-    public age = 22;
+    public age = 32;
 
     public condition = this.age < 1 ? "Teste" : "Teste2"
 
@@ -18,12 +18,13 @@ export class TampleteBuildingComponent {
 
     public srcValue = 'https://th.bing.com/th/id/R.70b15887926051cbdbc4d2f8a33f568c?rik=0tWnvyCpS0ljhw&pid=ImgRaw&r=0';
 
-    constructor(){
-      setTimeout( () => {
-        this.name = " João e Maria"
-      }, 1000)
-    }
+    // constructor(){
+    //   setTimeout( () => {
+    //     this.name = " João e Maria"
+    //   }, 1000)
+    // }
     
+    public isTextDecoration = this.age >= 32 ? 'underline' : 'none';
     public sum( val1: number, val2: number){
       return val1 + val2;
     }

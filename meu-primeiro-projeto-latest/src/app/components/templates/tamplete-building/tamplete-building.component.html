@@ -19,3 +19,11 @@
 <h2>Attribute Binding</h2>
 <!-- <element [attr.attributeName]='value'></element>  -->
  <p [attr.title]="name" [attr.arial-label]="name"> Felipe Carvalho</p>
+
+<hr/>
+
+<h2>Class and Style Binding</h2>
+
+<p  [class.backgroud-red]="age >= 32" [class.backgroud-blue]="age > 32">{{ name }}</p>
+
+<p [style.text-decoration]="isTextDecoration">{{age}}</p>
