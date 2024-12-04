@@ -1,10 +1,11 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgClass, NgStyle } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-tamplete-building',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgClass, NgStyle, FormsModule],
   templateUrl: './tamplete-building.component.html',
   styleUrl: './tamplete-building.component.scss'
 })
