@@ -14,6 +14,7 @@
 - ng g --help
 - ng serve
 - ng g component components/new-component  (cria um componente novo)
+- ng g c nomedapasyta/nomedapasta/nomedoarqeuivo (esse codigo cria um componente)
 
 ## Seletores especiais 
 
@@ -64,3 +65,5 @@ no entanto, é importante notar que o uso excessivo de ::ng-deep pode tornar o c
         border: 5px solid blue;
     }
 }
+
+
